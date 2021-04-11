@@ -3,7 +3,6 @@ import java.util.Stack;
 public class LowerCase {
     public static String toLowerCase(String str) {
         Stack<Character> stack = new Stack<>();
-        //String output = new String();
         StringBuilder stringBuilder = new StringBuilder();
 
         for (int i = 0; i < str.length(); i++) {
