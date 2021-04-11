@@ -26,9 +26,4 @@ public class LowerCase {
         }
         return temp;
     }
-    public static void main(String[] args) {
-        String hString = "Hello";
-        System.out.println(toLowerCaseChad(hString));
-
-    }
 }
